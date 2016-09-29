@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.sigildesigns.northchinatown.MainActivity">
+
+    <ImageView
+        android:id="@+id/pic"
+        android:layout_width="180dp"
+        android:layout_height="200dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/northchinatown"/>
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:layout_below="@id/pic"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:text="North China Town"/>
+    <TextView
+        android:id="@+id/contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:layout_below="@id/name"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:text="(209) 525-9999" />
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:layout_below="@id/contact"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:text="2101 Standiford Ave, Modesto, CA 95350" />
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:layout_below="@id/address"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:text="Chinese restaurant serving up local favorites in the americanized chinese genre of food." />
+    <TextView
+        android:id="@+id/hours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:layout_below="@id/description"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:text="Open Tuesday-Sunday, 11am-9pm. Closed Mondays." />
+</RelativeLayout>
